@@ -24,8 +24,3 @@ function reduce(arr, func, start = null) {
   }
   return start;
 }
-
-let newArray = [true, true, false];
-let sumArray = [20, 2, 2];
-console.log(reduce(newArray, (x) => x === true));
-console.log(reduce(sumArray, (x) => (sumArray[0] += x)));
